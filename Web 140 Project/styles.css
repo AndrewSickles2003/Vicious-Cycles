@@ -1,0 +1,420 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     color: #545454;
+     font-family: sans-serif;
+ }
+ 
+ header {
+     width: 100%;
+     overflow: hidden;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ body {
+     background-color: #fff;
+ }
+
+ .logo, .footer-logo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     max-width: 600px;
+ }
+
+ .navbar ul {
+     list-style: none;
+     background: #545454;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+ }
+
+ .navbar li {
+     display: inline-block;
+ }
+
+ .navbar a {
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .Aboutus .AbtDrp {
+    font-size: 20px;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: inherit;
+    font-family: inherit;
+    margin-top: 0px;
+    text-transform: uppercase;
+    padding: 25px 20px;
+  }
+
+    .navbar a:hover, .Aboutus:hover .AbtDrp {
+        background-color: #a3620a;
+      }
+
+  .about-us {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+  }
+
+  .about-us a {
+    float: none;
+    color: #a3620a;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .about-us a:hover {
+    background-color: #ddd;
+  }
+
+  .Aboutus:hover .about-us {
+    display: block;
+  }
+
+  .mobile-icon {
+      width: 25px;
+      cursor: pointer;
+      display: none;
+  }
+
+  .grid { 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    text-align: center;
+  }
+
+  .grid p {
+      color: #545454;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+
+  .grid h2 {
+      color: #545454;
+      margin-top: 10px;
+  }
+
+  .bikewall {
+      display: flex;
+      max-width: 100%;
+      max-height: 100%;
+  }
+
+  body, img {
+      width: fit-content;
+  }
+
+  table {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #a3620a;
+  }
+
+  th, td {
+      padding: 10px;
+      color: #fff;
+  }
+
+  th {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  td {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  table a {
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 12px;
+    padding: 7px;
+    border: 2px solid #545454;
+    background-color: #545454;
+    color: #fff;
+}
+
+.other {
+    padding-top: 5px;
+}
+
+.other:hover {
+    background-color: #a3620a;
+    color: #fff;
+}
+
+.foundimg {
+    width: 300px;
+    float: left;
+    margin: 60px 35px 30px 35px;
+}
+
+.founder p {
+    font-size: 25px;
+    margin: 35px 35px;
+}
+
+.founder h2 {
+    font-size: 35px;
+    margin: 25px 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.TenBikes {
+    width: max-content;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #545454;
+    border-radius: 15px;
+    background-color: #545454;
+    color: #fff;
+}
+
+.TenBikes:hover {
+    background-color: #a3620a;
+    color: #fff;
+    border: 3px solid #a3620a;
+}
+    
+.footer-logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #545454;
+}
+
+footer {
+    border-top: 15px solid #545454;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fb-logo {
+    float:right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    width: 75px;
+   
+}
+
+.tw-logo {
+    display: flex;
+    width: 75px;
+}
+
+.map {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.whereh2 {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.wherep {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Qmark {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.whoh2 {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.whop {
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.appth2 {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #545454;
+}
+
+fieldset {
+    padding-bottom: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 5px solid #545454;
+}
+
+legend {
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: #545454;
+}
+
+label {
+    padding: 10px;
+    color: #545454;
+    
+}
+
+select {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #545454;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+.home {
+    text-align: center;
+    border: 5px solid #545454;
+    background-color: #545454;
+    color: #fff;
+    
+}
+
+#submit {
+    border-bottom: none;
+    margin-bottom: 15px;
+    color: #545454;
+}
+
+#other {
+    border-bottom: none;
+}
+
+#Services {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+#ulservice {
+    justify-content: center;
+    display: flex; }
+
+    .service {
+        margin-left: 40px;
+        padding-bottom: 50px;
+    }
+
+    .contact {
+        display: block;
+        width: 100%;
+        margin: 0 auto;}
+
+    .contacth2 {
+        max-width: 75%;
+        margin: 0 auto;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        }
+        
+    .contactp {
+        max-width: 75%;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+
+    .From {
+        text-align: center;
+        border: 5px solid #a3620a;
+        background-color: #a3620a;
+        color: #fff;
+    }
+
+    .wherefrom {
+        width: max-content;
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        border: 3px solid #545454;
+        border-radius: 15px;
+        background-color: #545454;
+        color: #fff;
+    }
+    
+    .wherefrom:hover {
+        background-color: #a3620a;
+        color: #fff;
+        border: 3px solid #a3620a;
+    }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/vicious-cycles-logo.png" alt="Vicious Cycles logo" class="logo">
+    </header>
+
+    <div class="navbar">
+        <img src="images/plus-menu-icon.png" class="mobile-icon" alt="menu icon">
+    
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Bikes.html">Bikes</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+    
+            <li class="Aboutus">
+            <button class="AbtDrp">About Us</button>
+                <div class="about-us">
+                    <a href="Whoarewe.html">Who are we?</a>
+                    <a href="wherearewebased.html">Where are we based?</a>
+                    <a href="Schedule.html">Schedule</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <img src="images/jazmin-quaynor-18mUXUS8ksI-unsplash.jpg" class="form-img" alt="a paper planner with items around it">
+
+    <h2 class="appth2">Schedule An Appointment</h2>
+
+   <form id="Schedule" method="post">
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <label>First name:</label>
+            <input>
+            <br>
+            <label>Last Name:</label>
+            <input>
+            <br>
+            <label>Phone Number:</label>
+            <input>
+            <br>
+            <label>Email:</label>
+            <input>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Reason For Appointment
+            </legend>
+                <input type="radio" id="Repair" name="Reason" value="Repair">
+                <label for="Repair">Repair</label>
+                <br>
+                <input type="radio" id="Purchase" name="Reason" value="Purchase">
+                <label for="Purchase">Purchase</label>
+                <br>
+                <input type="radio" id="Parts" name="Reason" value="Parts">
+                <label for="Parts">Parts</label>
+                <br>
+                <input type="radio" id="Other" name="Reason" value="Other">
+                <label for="Other">Other</label>
+                <br>
+                <label>Specify:</label>
+                <input>
+                <br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Best way to contact you?
+            </legend>
+                <input type="checkbox" id="Phone" name="contact" value="Phone">
+                <label for="Phone">Phone</label>
+                <br>
+                <input type="checkbox" id="Email" name="contact" value="Email">
+                <label for="Email">Email</label>
+                <br>
+                <input type="checkbox" id="other1" name="contact" value="other">
+                <label for="other1">Other</label>
+                <br>
+                <label>Specify:</label>
+                <input>
+                <br>
+        </fieldset>
+        <fieldset>
+            <legend>Timeframe</legend>
+            <label for="Timeframe">Timeframe</label>
+                <select id="Timeframe" name="Timeframe">
+                    <option value="Oneday">One Day</option>
+                    <option value="Oneweek">One Week</option>
+                    <option value="Onemonth">One Month</option>
+                    <option value="Longer">Longer than one month</option>
+                </select>
+                <br>
+                <label>How Long?</label>
+                <input>
+                <br>
+        </fieldset>
+        <fieldset id="other">
+            <legend>Other Notes:</legend>
+            <br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">type text Here</textarea>
+            
+        </fieldset>
+        <fieldset id="submit">
+            <input type="submit" class="submit">
+        </fieldset>
+        <fieldset>
+            <a href="Index.html" class="home">Home</a>
+        </fieldset>
+   </form>
+
+    <footer>
+        <img src="images/vicious-cycles-logo.png" alt="Vicious Cycles logo" class="footer-logo">
+    
+        <p>© 2021 Vicious Cycles. All Rights Reserved</p>
+        <div class= "social">
+            <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fb_icon_325x325.png" alt="Facebook Logo" class="fb-logo"></a>
+            </div>
+            <div>
+            <a href="https://twitter.com/login" target="_blank"><img src="images/10wmt-superJumbo-v4.jpg" alt="Twitter Logo" class="tw-logo"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
